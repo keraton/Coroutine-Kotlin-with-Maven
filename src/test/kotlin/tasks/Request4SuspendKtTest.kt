@@ -5,10 +5,12 @@ import contributors.expectedResults
 import contributors.testRequestData
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert
+import org.junit.Ignore
 import org.junit.Test
 
 class Request4SuspendKtTest {
     @Test
+    @Ignore
     fun testSuspend() = runBlocking {
         val startTime = System.currentTimeMillis()
         val result = loadContributorsSuspend(MockGithubService, testRequestData)

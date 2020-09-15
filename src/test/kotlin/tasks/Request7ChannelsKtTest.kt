@@ -5,10 +5,12 @@ import contributors.concurrentProgressResults
 import contributors.testRequestData
 import kotlinx.coroutines.runBlocking
 import org.junit.Assert
+import org.junit.Ignore
 import org.junit.Test
 
 class Request7ChannelsKtTest {
     @Test
+    @Ignore
     fun testChannels() = runBlocking {
         val startTime = System.currentTimeMillis()
         var index = 0
