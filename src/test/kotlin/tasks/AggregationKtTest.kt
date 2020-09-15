@@ -2,12 +2,10 @@ package tasks
 
 import contributors.User
 import org.junit.Assert
-import org.junit.Ignore
 import org.junit.Test
 
 class AggregationKtTest {
     @Test
-    @Ignore
     fun testAggregation() {
         val actual = listOf(
             User("Alice", 1), User("Bob", 3),
