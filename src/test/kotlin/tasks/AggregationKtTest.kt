@@ -7,7 +7,7 @@ import org.junit.Test
 
 class AggregationKtTest {
     @Test
-    @Ignore
+    //@Ignore
     fun testAggregation() {
         val actual = listOf(
             User("Alice", 1), User("Bob", 3),
